@@ -1,0 +1,130 @@
+body {
+    background-color: rgb(19, 14, 36);
+    font-family: verdana;
+    margin-left: 0;
+}
+ul {
+    background-color: rgb(8, 6, 15);
+    list-style-type: none;
+    overflow: hidden;
+    padding-right: 0;
+    padding-left: 0;
+    position: fixed;
+    height: 60px;
+    width: 100%;
+    z-index: 2;
+    margin: 0;
+    top: 0;
+  }
+li {
+    border-left: 1px solid #bbb;
+    display: inline;
+    float: right;
+  }
+li:last-child {
+    border-left: none;
+  }
+a {
+    display: block;
+    color: white;
+    font-size: 15px;
+    position: relative;
+    z-index: 2;
+} 
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  } 
+li a:hover {
+    background-color: #111;
+  }
+.active {
+    border-radius: 25px;
+    background-color: #04AA6D;
+}
+.item_logo {
+    float: left;
+    border: none;
+    margin-top: 7px;
+    margin-left: 10px;
+}
+.image_logo {
+    float: left;
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.image_capa {
+    margin-left: 3%;
+    left: 0;
+    top: 0;
+    width: 95%;
+    height: auto;
+    opacity: 0.6;
+    position: absolute;
+}
+.image_perfil{
+    width: 170px;
+    height: 170px;
+    border-radius: 100%;
+    position: relative;
+    z-index: 2;
+}
+.image_content{
+    width: 680px;
+    height: 420px;
+}
+.content_image {
+    text-align: center;
+    margin: 10px 5pxSoldadoM43;
+}
+.table1{
+    margin-top: 28%;
+    margin-left: 3%;
+}
+.content{
+    margin: 4% 3%;
+}
+#title {
+    color: rgb(230, 230, 231);
+    font-size: 40px;
+}
+.subtitle {
+    color: rgb(255, 255, 255);
+    margin-left: 15px;
+    box-shadow: black;
+    position: relative;
+    z-index: 2;
+}
+.post {
+    background-color: rgb(12, 8, 22);
+    padding: 15px;
+    margin-bottom: 15px;
+}
+.post_title {
+    color: rgb(230, 230, 231);
+    font-size: 16px;
+    font-style: italic;
+    margin: 0;
+    margin-bottom: 15px;
+    color:rgb(230, 230, 231);
+}
+.post_content {
+    margin: 0;
+    margin-bottom: 15px;
+    color:rgb(230, 230, 231)
+}
+contact_list {
+    list-style-type: none;
+    padding: 0;
+    padding-left: 15px;
+}
+.contact_list li a {
+    text-decoration: none;
+    list-style-type: none;
+    color: blueviolet;
+}
